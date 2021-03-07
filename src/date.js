@@ -10,16 +10,15 @@ function getFullDate() {
 }
 
 function getWeekDay() {
-    return moment().format('dddd');
-
+    return moment().day();
 }
 
 function getCurrentMonth() {
-    return moment().format('MMMM');
+    return moment().month();
 }
 
 function getCurrentYear() {
-    return moment().format('YYYY');
+    return moment().year();
 }
 
 module.exports = {
