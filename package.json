@@ -1,0 +1,28 @@
+{
+    "name": "npm-basics",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/marcelarie/npm-basics.git"
+    },
+    "author": "Marcel Arie",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/marcelarie/npm-basics/issues"
+    },
+    "homepage": "https://github.com/marcelarie/npm-basics#readme",
+    "dependencies": {
+        "jquery": "^3.6.0",
+        "lodash": "^4.17.21",
+        "moment": "^2.29.1"
+    },
+    "devDependencies": {
+        "jest": "^26.6.3"
+    }
+}
